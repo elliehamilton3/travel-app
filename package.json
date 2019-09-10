@@ -4,10 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "lint": "./node_modules/.bin/eslint . --ext js",
     "lint-fix": "npm run lint -- --fix",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prepush": "lint-staged"
   },
   "lint-staged": {
     "*.js": [
@@ -30,9 +31,12 @@
   },
   "devDependencies": {
     "eslint": "^6.3.0",
-    "eslint-config-airbnb-base": "^14.0.0",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
     "husky": "^3.0.5",
-    "lint-staged": "^9.2.5"
+    "jest": "^24.9.0",
+    "lint-staged": "^9.2.5",
+    "superagent": "^5.1.0",
+    "supertest": "^4.0.2"
   }
 }
