@@ -6,9 +6,7 @@
   "scripts": {
     "test": "jest",
     "lint": "./node_modules/.bin/eslint . --ext js",
-    "lint-fix": "npm run lint -- --fix",
-    "precommit": "lint-staged",
-    "prepush": "lint-staged"
+    "lint-fix": "npm run lint -- --fix"
   },
   "lint-staged": {
     "*.js": [
@@ -38,5 +36,11 @@
     "lint-staged": "^9.2.5",
     "superagent": "^5.1.0",
     "supertest": "^4.0.2"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "lint-staged"
+    }
   }
 }
