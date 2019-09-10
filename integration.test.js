@@ -21,7 +21,7 @@ describe('Test the country path', () => {
     test('It should response the GET method', async () => {
         const response = await request(app).get('/country/uk');
         expect(response.status).toBe(200);
-        expect(response.text).toBe("uk");
+        expect(response.body).toEqual({"safeTapWater": true});
     });
 });
 
@@ -29,6 +29,14 @@ describe('Test the country path', () => {
     test('It should response the GET method', async () => {
         const response = await request(app).get('/country/albania');
         expect(response.status).toBe(200);
-        expect(response.text).toBe("albania");
+        expect(response.body).toEqual({"safeTapWater": false});
+    });
+});
+
+describe('Test the country path', () => {
+    test('It should response the GET method', async () => {
+        const response = await request(app).get('/country/france');
+        expect(response.status).toBe(200);
+        expect(response.text).toBe("Hello World!");
     });
 });
