@@ -1,16 +1,10 @@
 const express = require('express');
+const getInfoByCountryCode = require('./businessLogic/getInfoByCountryCode.js');
 
 const app = express();
 
 app.get('/', (req, res) => res.send('Hello World!'));
 
-app.get('/country/:name', (req, res) => {
-  if (req.params.name === 'uk') {
-    return res.json({ safeTapWater: true });
-  } if (req.params.name === 'albania') {
-    return res.json({ safeTapWater: false });
-  }
-  return res.send('Hello World!');
-});
+app.get('/countries/:code', (req, res) => res.json(getInfoByCountryCode(req.params.code)));
 
 module.exports = app;

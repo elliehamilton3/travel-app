@@ -12,12 +12,19 @@ describe('Test the root path', () => {
 
 describe('Test the country path', () => {
     test('It should response the GET method', async () => {
-        const response = await request(app).get('/country/');
-        expect(response.status).toBe(404);
+        const response = await request(app).get('/countries/AFG');
+        expect(response.status).toBe(200);
+        expect(response.body).toEqual({
+            name: 'Afghanistan',
+            'alpha-3': 'AFG',
+            'country-code': '004',
+            isTapWaterSafe: false,
+            tapWaterExtraInfo: '',
+          });
     });
 });
 
-describe('Test the country path', () => {
+xdescribe('Test the country path', () => {
     test('It should response the GET method', async () => {
         const response = await request(app).get('/country/uk');
         expect(response.status).toBe(200);
@@ -25,7 +32,7 @@ describe('Test the country path', () => {
     });
 });
 
-describe('Test the country path', () => {
+xdescribe('Test the country path', () => {
     test('It should response the GET method', async () => {
         const response = await request(app).get('/country/albania');
         expect(response.status).toBe(200);
@@ -33,7 +40,7 @@ describe('Test the country path', () => {
     });
 });
 
-describe('Test the country path', () => {
+xdescribe('Test the country path', () => {
     test('It should response the GET method', async () => {
         const response = await request(app).get('/country/france');
         expect(response.status).toBe(200);

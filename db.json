@@ -1,0 +1,1745 @@
+[
+    {
+        "name": "Afghanistan",
+        "alpha-3": "AFG",
+        "country-code": "004",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Åland Islands",
+        "alpha-3": "ALA",
+        "country-code": "248",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Albania",
+        "alpha-3": "ALB",
+        "country-code": "008",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Algeria",
+        "alpha-3": "DZA",
+        "country-code": "012",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "American Samoa",
+        "alpha-3": "ASM",
+        "country-code": "016",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Andorra",
+        "alpha-3": "AND",
+        "country-code": "020",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Angola",
+        "alpha-3": "AGO",
+        "country-code": "024",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Anguilla",
+        "alpha-3": "AIA",
+        "country-code": "660",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Antarctica",
+        "alpha-3": "ATA",
+        "country-code": "010",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Antigua and Barbuda",
+        "alpha-3": "ATG",
+        "country-code": "028",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Argentina",
+        "alpha-3": "ARG",
+        "country-code": "032",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Armenia",
+        "alpha-3": "ARM",
+        "country-code": "051",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Aruba",
+        "alpha-3": "ABW",
+        "country-code": "533",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Australia",
+        "alpha-3": "AUS",
+        "country-code": "036",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Austria",
+        "alpha-3": "AUT",
+        "country-code": "040",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Azerbaijan",
+        "alpha-3": "AZE",
+        "country-code": "031",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Bahamas",
+        "alpha-3": "BHS",
+        "country-code": "044",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Bahrain",
+        "alpha-3": "BHR",
+        "country-code": "048",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Bangladesh",
+        "alpha-3": "BGD",
+        "country-code": "050",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Barbados",
+        "alpha-3": "BRB",
+        "country-code": "052",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Belarus",
+        "alpha-3": "BLR",
+        "country-code": "112",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Belgium",
+        "alpha-3": "BEL",
+        "country-code": "056",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Belize",
+        "alpha-3": "BLZ",
+        "country-code": "084",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Benin",
+        "alpha-3": "BEN",
+        "country-code": "204",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Bermuda",
+        "alpha-3": "BMU",
+        "country-code": "060",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Bhutan",
+        "alpha-3": "BTN",
+        "country-code": "064",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Bolivia (Plurinational State of)",
+        "alpha-3": "BOL",
+        "country-code": "068",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Bonaire, Sint Eustatius and Saba",
+        "alpha-3": "BES",
+        "country-code": "535",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Bosnia and Herzegovina",
+        "alpha-3": "BIH",
+        "country-code": "070",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Botswana",
+        "alpha-3": "BWA",
+        "country-code": "072",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Bouvet Island",
+        "alpha-3": "BVT",
+        "country-code": "074",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Brazil",
+        "alpha-3": "BRA",
+        "country-code": "076",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "British Indian Ocean Territory",
+        "alpha-3": "IOT",
+        "country-code": "086",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Brunei Darussalam",
+        "alpha-3": "BRN",
+        "country-code": "096",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Bulgaria",
+        "alpha-3": "BGR",
+        "country-code": "100",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Burkina Faso",
+        "alpha-3": "BFA",
+        "country-code": "854",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Burundi",
+        "alpha-3": "BDI",
+        "country-code": "108",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Cabo Verde",
+        "alpha-3": "CPV",
+        "country-code": "132",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Cambodia",
+        "alpha-3": "KHM",
+        "country-code": "116",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Cameroon",
+        "alpha-3": "CMR",
+        "country-code": "120",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Canada",
+        "alpha-3": "CAN",
+        "country-code": "124",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Cayman Islands",
+        "alpha-3": "CYM",
+        "country-code": "136",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Central African Republic",
+        "alpha-3": "CAF",
+        "country-code": "140",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Chad",
+        "alpha-3": "TCD",
+        "country-code": "148",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Chile",
+        "alpha-3": "CHL",
+        "country-code": "152",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "China",
+        "alpha-3": "CHN",
+        "country-code": "156",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Christmas Island",
+        "alpha-3": "CXR",
+        "country-code": "162",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Cocos (Keeling) Islands",
+        "alpha-3": "CCK",
+        "country-code": "166",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Colombia",
+        "alpha-3": "COL",
+        "country-code": "170",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Comoros",
+        "alpha-3": "COM",
+        "country-code": "174",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Congo",
+        "alpha-3": "COG",
+        "country-code": "178",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Congo, Democratic Republic of the",
+        "alpha-3": "COD",
+        "country-code": "180",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Cook Islands",
+        "alpha-3": "COK",
+        "country-code": "184",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Costa Rica",
+        "alpha-3": "CRI",
+        "country-code": "188",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Côte d'Ivoire",
+        "alpha-3": "CIV",
+        "country-code": "384",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Croatia",
+        "alpha-3": "HRV",
+        "country-code": "191",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Cuba",
+        "alpha-3": "CUB",
+        "country-code": "192",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Curaçao",
+        "alpha-3": "CUW",
+        "country-code": "531",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Cyprus",
+        "alpha-3": "CYP",
+        "country-code": "196",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Czechia",
+        "alpha-3": "CZE",
+        "country-code": "203",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Denmark",
+        "alpha-3": "DNK",
+        "country-code": "208",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Djibouti",
+        "alpha-3": "DJI",
+        "country-code": "262",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Dominica",
+        "alpha-3": "DMA",
+        "country-code": "212",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Dominican Republic",
+        "alpha-3": "DOM",
+        "country-code": "214",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Ecuador",
+        "alpha-3": "ECU",
+        "country-code": "218",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Egypt",
+        "alpha-3": "EGY",
+        "country-code": "818",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "El Salvador",
+        "alpha-3": "SLV",
+        "country-code": "222",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Equatorial Guinea",
+        "alpha-3": "GNQ",
+        "country-code": "226",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Eritrea",
+        "alpha-3": "ERI",
+        "country-code": "232",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Estonia",
+        "alpha-3": "EST",
+        "country-code": "233",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Eswatini",
+        "alpha-3": "SWZ",
+        "country-code": "748",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Ethiopia",
+        "alpha-3": "ETH",
+        "country-code": "231",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Falkland Islands (Malvinas)",
+        "alpha-3": "FLK",
+        "country-code": "238",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Faroe Islands",
+        "alpha-3": "FRO",
+        "country-code": "234",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Fiji",
+        "alpha-3": "FJI",
+        "country-code": "242",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Finland",
+        "alpha-3": "FIN",
+        "country-code": "246",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "France",
+        "alpha-3": "FRA",
+        "country-code": "250",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "French Guiana",
+        "alpha-3": "GUF",
+        "country-code": "254",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "French Polynesia",
+        "alpha-3": "PYF",
+        "country-code": "258",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "French Southern Territories",
+        "alpha-3": "ATF",
+        "country-code": "260",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Gabon",
+        "alpha-3": "GAB",
+        "country-code": "266",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Gambia",
+        "alpha-3": "GMB",
+        "country-code": "270",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Georgia",
+        "alpha-3": "GEO",
+        "country-code": "268",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Germany",
+        "alpha-3": "DEU",
+        "country-code": "276",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Ghana",
+        "alpha-3": "GHA",
+        "country-code": "288",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Gibraltar",
+        "alpha-3": "GIB",
+        "country-code": "292",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Greece",
+        "alpha-3": "GRC",
+        "country-code": "300",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Greenland",
+        "alpha-3": "GRL",
+        "country-code": "304",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Grenada",
+        "alpha-3": "GRD",
+        "country-code": "308",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Guadeloupe",
+        "alpha-3": "GLP",
+        "country-code": "312",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Guam",
+        "alpha-3": "GUM",
+        "country-code": "316",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Guatemala",
+        "alpha-3": "GTM",
+        "country-code": "320",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Guernsey",
+        "alpha-3": "GGY",
+        "country-code": "831",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Guinea",
+        "alpha-3": "GIN",
+        "country-code": "324",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Guinea-Bissau",
+        "alpha-3": "GNB",
+        "country-code": "624",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Guyana",
+        "alpha-3": "GUY",
+        "country-code": "328",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Haiti",
+        "alpha-3": "HTI",
+        "country-code": "332",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Heard Island and McDonald Islands",
+        "alpha-3": "HMD",
+        "country-code": "334",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Holy See",
+        "alpha-3": "VAT",
+        "country-code": "336",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Honduras",
+        "alpha-3": "HND",
+        "country-code": "340",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Hong Kong",
+        "alpha-3": "HKG",
+        "country-code": "344",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Hungary",
+        "alpha-3": "HUN",
+        "country-code": "348",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Iceland",
+        "alpha-3": "ISL",
+        "country-code": "352",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "India",
+        "alpha-3": "IND",
+        "country-code": "356",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Indonesia",
+        "alpha-3": "IDN",
+        "country-code": "360",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Iran (Islamic Republic of)",
+        "alpha-3": "IRN",
+        "country-code": "364",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Iraq",
+        "alpha-3": "IRQ",
+        "country-code": "368",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Ireland",
+        "alpha-3": "IRL",
+        "country-code": "372",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Isle of Man",
+        "alpha-3": "IMN",
+        "country-code": "833",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Israel",
+        "alpha-3": "ISR",
+        "country-code": "376",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Italy",
+        "alpha-3": "ITA",
+        "country-code": "380",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Jamaica",
+        "alpha-3": "JAM",
+        "country-code": "388",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Japan",
+        "alpha-3": "JPN",
+        "country-code": "392",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Jersey",
+        "alpha-3": "JEY",
+        "country-code": "832",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Jordan",
+        "alpha-3": "JOR",
+        "country-code": "400",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Kazakhstan",
+        "alpha-3": "KAZ",
+        "country-code": "398",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Kenya",
+        "alpha-3": "KEN",
+        "country-code": "404",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Kiribati",
+        "alpha-3": "KIR",
+        "country-code": "296",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Korea (Democratic People's Republic of)",
+        "alpha-3": "PRK",
+        "country-code": "408",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Korea, Republic of",
+        "alpha-3": "KOR",
+        "country-code": "410",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Kuwait",
+        "alpha-3": "KWT",
+        "country-code": "414",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Kyrgyzstan",
+        "alpha-3": "KGZ",
+        "country-code": "417",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Lao People's Democratic Republic",
+        "alpha-3": "LAO",
+        "country-code": "418",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Latvia",
+        "alpha-3": "LVA",
+        "country-code": "428",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Lebanon",
+        "alpha-3": "LBN",
+        "country-code": "422",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Lesotho",
+        "alpha-3": "LSO",
+        "country-code": "426",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Liberia",
+        "alpha-3": "LBR",
+        "country-code": "430",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Libya",
+        "alpha-3": "LBY",
+        "country-code": "434",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Liechtenstein",
+        "alpha-3": "LIE",
+        "country-code": "438",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Lithuania",
+        "alpha-3": "LTU",
+        "country-code": "440",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Luxembourg",
+        "alpha-3": "LUX",
+        "country-code": "442",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Macao",
+        "alpha-3": "MAC",
+        "country-code": "446",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Madagascar",
+        "alpha-3": "MDG",
+        "country-code": "450",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Malawi",
+        "alpha-3": "MWI",
+        "country-code": "454",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Malaysia",
+        "alpha-3": "MYS",
+        "country-code": "458",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Maldives",
+        "alpha-3": "MDV",
+        "country-code": "462",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Mali",
+        "alpha-3": "MLI",
+        "country-code": "466",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Malta",
+        "alpha-3": "MLT",
+        "country-code": "470",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Marshall Islands",
+        "alpha-3": "MHL",
+        "country-code": "584",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Martinique",
+        "alpha-3": "MTQ",
+        "country-code": "474",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Mauritania",
+        "alpha-3": "MRT",
+        "country-code": "478",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Mauritius",
+        "alpha-3": "MUS",
+        "country-code": "480",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Mayotte",
+        "alpha-3": "MYT",
+        "country-code": "175",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Mexico",
+        "alpha-3": "MEX",
+        "country-code": "484",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Micronesia (Federated States of)",
+        "alpha-3": "FSM",
+        "country-code": "583",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Moldova, Republic of",
+        "alpha-3": "MDA",
+        "country-code": "498",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Monaco",
+        "alpha-3": "MCO",
+        "country-code": "492",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Mongolia",
+        "alpha-3": "MNG",
+        "country-code": "496",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Montenegro",
+        "alpha-3": "MNE",
+        "country-code": "499",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Montserrat",
+        "alpha-3": "MSR",
+        "country-code": "500",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Morocco",
+        "alpha-3": "MAR",
+        "country-code": "504",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Mozambique",
+        "alpha-3": "MOZ",
+        "country-code": "508",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Myanmar",
+        "alpha-3": "MMR",
+        "country-code": "104",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Namibia",
+        "alpha-3": "NAM",
+        "country-code": "516",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Nauru",
+        "alpha-3": "NRU",
+        "country-code": "520",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Nepal",
+        "alpha-3": "NPL",
+        "country-code": "524",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Netherlands",
+        "alpha-3": "NLD",
+        "country-code": "528",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "New Caledonia",
+        "alpha-3": "NCL",
+        "country-code": "540",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "New Zealand",
+        "alpha-3": "NZL",
+        "country-code": "554",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Nicaragua",
+        "alpha-3": "NIC",
+        "country-code": "558",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Niger",
+        "alpha-3": "NER",
+        "country-code": "562",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Nigeria",
+        "alpha-3": "NGA",
+        "country-code": "566",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Niue",
+        "alpha-3": "NIU",
+        "country-code": "570",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Norfolk Island",
+        "alpha-3": "NFK",
+        "country-code": "574",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "North Macedonia",
+        "alpha-3": "MKD",
+        "country-code": "807",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Northern Mariana Islands",
+        "alpha-3": "MNP",
+        "country-code": "580",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Norway",
+        "alpha-3": "NOR",
+        "country-code": "578",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Oman",
+        "alpha-3": "OMN",
+        "country-code": "512",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Pakistan",
+        "alpha-3": "PAK",
+        "country-code": "586",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Palau",
+        "alpha-3": "PLW",
+        "country-code": "585",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Palestine, State of",
+        "alpha-3": "PSE",
+        "country-code": "275",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Panama",
+        "alpha-3": "PAN",
+        "country-code": "591",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Papua New Guinea",
+        "alpha-3": "PNG",
+        "country-code": "598",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Paraguay",
+        "alpha-3": "PRY",
+        "country-code": "600",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Peru",
+        "alpha-3": "PER",
+        "country-code": "604",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Philippines",
+        "alpha-3": "PHL",
+        "country-code": "608",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Pitcairn",
+        "alpha-3": "PCN",
+        "country-code": "612",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Poland",
+        "alpha-3": "POL",
+        "country-code": "616",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Portugal",
+        "alpha-3": "PRT",
+        "country-code": "620",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Puerto Rico",
+        "alpha-3": "PRI",
+        "country-code": "630",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Qatar",
+        "alpha-3": "QAT",
+        "country-code": "634",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Réunion",
+        "alpha-3": "REU",
+        "country-code": "638",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Romania",
+        "alpha-3": "ROU",
+        "country-code": "642",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Russian Federation",
+        "alpha-3": "RUS",
+        "country-code": "643",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Rwanda",
+        "alpha-3": "RWA",
+        "country-code": "646",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Saint Barthélemy",
+        "alpha-3": "BLM",
+        "country-code": "652",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Saint Helena, Ascension and Tristan da Cunha",
+        "alpha-3": "SHN",
+        "country-code": "654",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Saint Kitts and Nevis",
+        "alpha-3": "KNA",
+        "country-code": "659",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Saint Lucia",
+        "alpha-3": "LCA",
+        "country-code": "662",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Saint Martin (French part)",
+        "alpha-3": "MAF",
+        "country-code": "663",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Saint Pierre and Miquelon",
+        "alpha-3": "SPM",
+        "country-code": "666",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Saint Vincent and the Grenadines",
+        "alpha-3": "VCT",
+        "country-code": "670",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Samoa",
+        "alpha-3": "WSM",
+        "country-code": "882",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "San Marino",
+        "alpha-3": "SMR",
+        "country-code": "674",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Sao Tome and Principe",
+        "alpha-3": "STP",
+        "country-code": "678",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Saudi Arabia",
+        "alpha-3": "SAU",
+        "country-code": "682",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Senegal",
+        "alpha-3": "SEN",
+        "country-code": "686",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Serbia",
+        "alpha-3": "SRB",
+        "country-code": "688",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Seychelles",
+        "alpha-3": "SYC",
+        "country-code": "690",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Sierra Leone",
+        "alpha-3": "SLE",
+        "country-code": "694",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Singapore",
+        "alpha-3": "SGP",
+        "country-code": "702",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Sint Maarten (Dutch part)",
+        "alpha-3": "SXM",
+        "country-code": "534",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Slovakia",
+        "alpha-3": "SVK",
+        "country-code": "703",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Slovenia",
+        "alpha-3": "SVN",
+        "country-code": "705",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Solomon Islands",
+        "alpha-3": "SLB",
+        "country-code": "090",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Somalia",
+        "alpha-3": "SOM",
+        "country-code": "706",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "South Africa",
+        "alpha-3": "ZAF",
+        "country-code": "710",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "South Georgia and the South Sandwich Islands",
+        "alpha-3": "SGS",
+        "country-code": "239",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "South Sudan",
+        "alpha-3": "SSD",
+        "country-code": "728",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Spain",
+        "alpha-3": "ESP",
+        "country-code": "724",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Sri Lanka",
+        "alpha-3": "LKA",
+        "country-code": "144",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Sudan",
+        "alpha-3": "SDN",
+        "country-code": "729",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Suriname",
+        "alpha-3": "SUR",
+        "country-code": "740",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Svalbard and Jan Mayen",
+        "alpha-3": "SJM",
+        "country-code": "744",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Sweden",
+        "alpha-3": "SWE",
+        "country-code": "752",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Switzerland",
+        "alpha-3": "CHE",
+        "country-code": "756",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Syrian Arab Republic",
+        "alpha-3": "SYR",
+        "country-code": "760",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Taiwan, Province of China",
+        "alpha-3": "TWN",
+        "country-code": "158",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Tajikistan",
+        "alpha-3": "TJK",
+        "country-code": "762",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Tanzania, United Republic of",
+        "alpha-3": "TZA",
+        "country-code": "834",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Thailand",
+        "alpha-3": "THA",
+        "country-code": "764",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Timor-Leste",
+        "alpha-3": "TLS",
+        "country-code": "626",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Togo",
+        "alpha-3": "TGO",
+        "country-code": "768",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Tokelau",
+        "alpha-3": "TKL",
+        "country-code": "772",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Tonga",
+        "alpha-3": "TON",
+        "country-code": "776",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Trinidad and Tobago",
+        "alpha-3": "TTO",
+        "country-code": "780",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Tunisia",
+        "alpha-3": "TUN",
+        "country-code": "788",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Turkey",
+        "alpha-3": "TUR",
+        "country-code": "792",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Turkmenistan",
+        "alpha-3": "TKM",
+        "country-code": "795",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Turks and Caicos Islands",
+        "alpha-3": "TCA",
+        "country-code": "796",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Tuvalu",
+        "alpha-3": "TUV",
+        "country-code": "798",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Uganda",
+        "alpha-3": "UGA",
+        "country-code": "800",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Ukraine",
+        "alpha-3": "UKR",
+        "country-code": "804",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "United Arab Emirates",
+        "alpha-3": "ARE",
+        "country-code": "784",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "alpha-3": "GBR",
+        "country-code": "826",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "United States of America",
+        "alpha-3": "USA",
+        "country-code": "840",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "United States Minor Outlying Islands",
+        "alpha-3": "UMI",
+        "country-code": "581",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Uruguay",
+        "alpha-3": "URY",
+        "country-code": "858",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Uzbekistan",
+        "alpha-3": "UZB",
+        "country-code": "860",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Vanuatu",
+        "alpha-3": "VUT",
+        "country-code": "548",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Venezuela (Bolivarian Republic of)",
+        "alpha-3": "VEN",
+        "country-code": "862",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Viet Nam",
+        "alpha-3": "VNM",
+        "country-code": "704",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Virgin Islands (British)",
+        "alpha-3": "VGB",
+        "country-code": "092",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Virgin Islands (U.S.)",
+        "alpha-3": "VIR",
+        "country-code": "850",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Wallis and Futuna",
+        "alpha-3": "WLF",
+        "country-code": "876",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Western Sahara",
+        "alpha-3": "ESH",
+        "country-code": "732",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Yemen",
+        "alpha-3": "YEM",
+        "country-code": "887",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Zambia",
+        "alpha-3": "ZMB",
+        "country-code": "894",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    },
+    {
+        "name": "Zimbabwe",
+        "alpha-3": "ZWE",
+        "country-code": "716",
+        "isTapWaterSafe": false,
+        "tapWaterExtraInfo": ""
+    }
+]
