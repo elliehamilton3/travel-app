@@ -26,9 +26,9 @@
                         "tapWaterExtraInfo": string
                 }
         ]
-       
 
-## GET /v1/countries/name/{name}
+  
+## GET /v1/countries/code/{code}
 + Response 200 (application/json)
     + Body
         {
@@ -37,10 +37,9 @@
                 "country-code": string,
                 "isTapWaterSafe": boolean,
                 "tapWaterExtraInfo": string
-        }
+        }     
 
-
-## GET /v1/countries/code/{code}
+## GET /v1/countries/name/{name}
 + Response 200 (application/json)
     + Body
         {

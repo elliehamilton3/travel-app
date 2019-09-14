@@ -14,5 +14,4 @@ app.get('/v1/countries/code/:code', (req, res) => res.json(getInfoByCountryCode(
 
 app.get('/v1/countries/name/:name', (req, res) => res.json(getInfoByName(req.params.name)));
 
-
 module.exports = app;
