@@ -1,42 +1,52 @@
 # travel-app
 
-# GET /message
-+ Response 200 (text/plain)
-
-        Hello World!
-
-# GET /v1/countries
+## GET /v1/countries
 + Response 200 (application/json)
     + Body
-           [
-                { 
-                        "name": "Colombia",
-                        "isTapWaterSafe": false,
-                        "tapWaterExtraInfo": "It is not safe to drink the tap water anywhere in Colombia"
+        [
+                {
+                        "name": string,
+                        "alpha-3": string,
+                        "country-code": string,
+                        "isTapWaterSafe": boolean,
+                        "tapWaterExtraInfo": string
                 },
-                { 
-                        "name": "Albania",
-                        "isTapWaterSafe": false,
-                        "tapWaterExtraInfo": "It is not safe to drink the tap water anywhere in Colombia"
+                {
+                        "name": string,
+                        "alpha-3": string,
+                        "country-code": string,
+                        "isTapWaterSafe": boolean,
+                        "tapWaterExtraInfo": string
+                },
+                {
+                        "name": string,
+                        "alpha-3": string,
+                        "country-code": string,
+                        "isTapWaterSafe": boolean,
+                        "tapWaterExtraInfo": string
                 }
-           ]
+        ]
+       
 
-# GET /countries/col
+## GET /v1/countries/name/{name}
 + Response 200 (application/json)
     + Body
-        { 
-                "name": "Colombia",
-                "isTapWaterSafe": false,
-                "tapWaterExtraInfo": "It is not safe to drink the tap water anywhere in Colombia"
+        {
+                "name": string,
+                "alpha-3": string,
+                "country-code": string,
+                "isTapWaterSafe": boolean,
+                "tapWaterExtraInfo": string
         }
 
-# GET /countries/uk
+
+## GET /v1/countries/code/{code}
 + Response 200 (application/json)
     + Body
-            { "safeTapWater": true }
-
-
-# GET /countries/albania
-+ Response 200 (application/json)
-    + Body
-            { "safeTapWater": true }
+        {
+                "name": string,
+                "alpha-3": string,
+                "country-code": string,
+                "isTapWaterSafe": boolean,
+                "tapWaterExtraInfo": string
+        }
