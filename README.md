@@ -2,6 +2,14 @@
 
 [Trello board](https://trello.com/b/d581FSCl/travel-app)
 
+## To Run
+Prerequisites: 
+- Node
+- Docker
+
+To spin up the app (and database) run command: `docker-compose up`
+To tear down the app use: `docker-compose down`
+
 ```apib
 # GET /v1/countries
 + Response 200 (application/json)

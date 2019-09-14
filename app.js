@@ -8,10 +8,10 @@ const app = express();
 
 app.get('/', (req, res) => res.sendStatus(200));
 
-app.get('/v1/countries', (req, res) => res.json(getAllCountries()));
+app.get('/v1/countries', async (req, res) => res.json(await getAllCountries()));
 
-app.get('/v1/countries/code/:code', (req, res) => res.json(getInfoByCountryCode(req.params.code)));
+app.get('/v1/countries/code/:code', async (req, res) => res.json(await getInfoByCountryCode(req.params.code)));
 
-app.get('/v1/countries/name/:name', (req, res) => res.json(getInfoByName(req.params.name)));
+app.get('/v1/countries/name/:name', async (req, res) => res.json(await getInfoByName(req.params.name)));
 
 module.exports = app;

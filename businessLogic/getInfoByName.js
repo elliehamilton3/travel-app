@@ -1,7 +1,7 @@
-const db = require('../db.json');
+const db = require('../db/db.js');
 
 function getInfoByName(name) {
-  return db.find(country => country.name === name);
+  return db.one('SELECT * FROM countries WHERE name = $1', [name]);
 }
 
 module.exports = getInfoByName;

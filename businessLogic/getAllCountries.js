@@ -1,7 +1,12 @@
-const db = require('../db.json');
+const db = require('../db/db.js');
 
 function getAllCountries() {
-  return db;
+  // try {
+  return db.any('SELECT * FROM countries');
+  // } catch (e) {
+  //   console.log(e);
+  // }
+  // Format data
 }
 
 module.exports = getAllCountries;
