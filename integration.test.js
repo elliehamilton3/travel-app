@@ -34,27 +34,45 @@ describe('GET /countries', () => {
     });
 });
 
-xdescribe('GET /countries/name', () => {
-
+describe('GET /countries/name', () => {
+    const ENDPOINT = '/v1/countries/name';
     test('Should return a 404 response code if name parameter is missing', async () => {
-        const response = await request(app).get('/v1/countries/name');
-        expect(response.status).toBe(200);
+        const response = await request(app).get(ENDPOINT);
+        expect(response.status).toBe(404);
     });
 
-    test('Should return a 404 response code if name parameter is invalid', async () => {
-
+    xtest('Should return a 404 response code if name parameter is invalid', async () => {
+        const response = await request(app).get(`${ENDPOINT}/invalid`);
+        expect(response.status).toBe(404);
     });
 
     test('Should return a 200 response code if name parameter is present and valid', async () => {
-        
+        const response = await request(app).get(`${ENDPOINT}/Albania`);
+        expect(response.status).toBe(200);
     });
 
     test('Should return an object with the correct information for the name parameter provided', async () => {
-        
+        const response = await request(app).get(`${ENDPOINT}/Albania`);
+        expect(response.status).toBe(200);
+        expect(response.body).toMatchObject({
+            "name": "Albania",
+            "alpha-3": "ALB",
+            "country-code": "008",
+            "isTapWaterSafe": false,
+            "tapWaterExtraInfo": ""
+          })
     });
 
     test('Should return an object with the correct information for the name parameter provided if the name parameter contains a space', async () => {
-        
+        const response = await request(app).get(`${ENDPOINT}/United Kingdom of Great Britain and Northern Ireland`);
+        expect(response.status).toBe(200);
+        expect(response.body).toMatchObject({
+            "name": "United Kingdom of Great Britain and Northern Ireland",
+            "alpha-3": "GBR",
+            "country-code": "826",
+            "isTapWaterSafe": false,
+            "tapWaterExtraInfo": ""
+          })
     });
 });
 
