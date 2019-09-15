@@ -1,0 +1,1994 @@
+[
+    {
+        "id": 1,
+        "name": "Afghanistan",
+        "alpha": "AFG",
+        "code": "004",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 2,
+        "name": "Åland Islands",
+        "alpha": "ALA",
+        "code": "248",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 3,
+        "name": "Albania",
+        "alpha": "ALB",
+        "code": "008",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 4,
+        "name": "Algeria",
+        "alpha": "DZA",
+        "code": "012",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 5,
+        "name": "American Samoa",
+        "alpha": "ASM",
+        "code": "016",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 6,
+        "name": "Andorra",
+        "alpha": "AND",
+        "code": "020",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 7,
+        "name": "Angola",
+        "alpha": "AGO",
+        "code": "024",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 8,
+        "name": "Anguilla",
+        "alpha": "AIA",
+        "code": "660",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 9,
+        "name": "Antarctica",
+        "alpha": "ATA",
+        "code": "010",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 10,
+        "name": "Antigua and Barbuda",
+        "alpha": "ATG",
+        "code": "028",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 11,
+        "name": "Argentina",
+        "alpha": "ARG",
+        "code": "032",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 12,
+        "name": "Armenia",
+        "alpha": "ARM",
+        "code": "051",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 13,
+        "name": "Aruba",
+        "alpha": "ABW",
+        "code": "533",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 14,
+        "name": "Australia",
+        "alpha": "AUS",
+        "code": "036",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 15,
+        "name": "Austria",
+        "alpha": "AUT",
+        "code": "040",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 16,
+        "name": "Azerbaijan",
+        "alpha": "AZE",
+        "code": "031",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 17,
+        "name": "Bahamas",
+        "alpha": "BHS",
+        "code": "044",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 18,
+        "name": "Bahrain",
+        "alpha": "BHR",
+        "code": "048",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 19,
+        "name": "Bangladesh",
+        "alpha": "BGD",
+        "code": "050",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 20,
+        "name": "Barbados",
+        "alpha": "BRB",
+        "code": "052",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 21,
+        "name": "Belarus",
+        "alpha": "BLR",
+        "code": "112",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 22,
+        "name": "Belgium",
+        "alpha": "BEL",
+        "code": "056",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 23,
+        "name": "Belize",
+        "alpha": "BLZ",
+        "code": "084",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 24,
+        "name": "Benin",
+        "alpha": "BEN",
+        "code": "204",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 25,
+        "name": "Bermuda",
+        "alpha": "BMU",
+        "code": "060",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 26,
+        "name": "Bhutan",
+        "alpha": "BTN",
+        "code": "064",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 27,
+        "name": "Bolivia (Plurinational State of)",
+        "alpha": "BOL",
+        "code": "068",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 28,
+        "name": "Bonaire,Sint Eustatius and Saba",
+        "alpha": "BES",
+        "code": "535",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 29,
+        "name": "Bosnia and Herzegovina",
+        "alpha": "BIH",
+        "code": "070",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 30,
+        "name": "Botswana",
+        "alpha": "BWA",
+        "code": "072",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 31,
+        "name": "Bouvet Island",
+        "alpha": "BVT",
+        "code": "074",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 32,
+        "name": "Brazil",
+        "alpha": "BRA",
+        "code": "076",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 33,
+        "name": "British Indian Ocean Territory",
+        "alpha": "IOT",
+        "code": "086",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 34,
+        "name": "Brunei Darussalam",
+        "alpha": "BRN",
+        "code": "096",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 35,
+        "name": "Bulgaria",
+        "alpha": "BGR",
+        "code": "100",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 36,
+        "name": "Burkina Faso",
+        "alpha": "BFA",
+        "code": "854",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 37,
+        "name": "Burundi",
+        "alpha": "BDI",
+        "code": "108",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 38,
+        "name": "Cabo Verde",
+        "alpha": "CPV",
+        "code": "132",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 39,
+        "name": "Cambodia",
+        "alpha": "KHM",
+        "code": "116",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 40,
+        "name": "Cameroon",
+        "alpha": "CMR",
+        "code": "120",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 41,
+        "name": "Canada",
+        "alpha": "CAN",
+        "code": "124",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 42,
+        "name": "Cayman Islands",
+        "alpha": "CYM",
+        "code": "136",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 43,
+        "name": "Central African Republic",
+        "alpha": "CAF",
+        "code": "140",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 44,
+        "name": "Chad",
+        "alpha": "TCD",
+        "code": "148",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 45,
+        "name": "Chile",
+        "alpha": "CHL",
+        "code": "152",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 46,
+        "name": "China",
+        "alpha": "CHN",
+        "code": "156",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 47,
+        "name": "Christmas Island",
+        "alpha": "CXR",
+        "code": "162",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 48,
+        "name": "Cocos (Keeling) Islands",
+        "alpha": "CCK",
+        "code": "166",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 49,
+        "name": "Colombia",
+        "alpha": "COL",
+        "code": "170",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 50,
+        "name": "Comoros",
+        "alpha": "COM",
+        "code": "174",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 51,
+        "name": "Congo",
+        "alpha": "COG",
+        "code": "178",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 52,
+        "name": "Congo,Democratic Republic of the",
+        "alpha": "COD",
+        "code": "180",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 53,
+        "name": "Cook Islands",
+        "alpha": "COK",
+        "code": "184",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 54,
+        "name": "Costa Rica",
+        "alpha": "CRI",
+        "code": "188",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 55,
+        "name": "Côte dIvoire",
+        "alpha": "CIV",
+        "code": "384",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 56,
+        "name": "Croatia",
+        "alpha": "HRV",
+        "code": "191",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 57,
+        "name": "Cuba",
+        "alpha": "CUB",
+        "code": "192",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 58,
+        "name": "Curaçao",
+        "alpha": "CUW",
+        "code": "531",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 59,
+        "name": "Cyprus",
+        "alpha": "CYP",
+        "code": "196",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 60,
+        "name": "Czechia",
+        "alpha": "CZE",
+        "code": "203",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 61,
+        "name": "Denmark",
+        "alpha": "DNK",
+        "code": "208",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 62,
+        "name": "Djibouti",
+        "alpha": "DJI",
+        "code": "262",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 63,
+        "name": "Dominica",
+        "alpha": "DMA",
+        "code": "212",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 64,
+        "name": "Dominican Republic",
+        "alpha": "DOM",
+        "code": "214",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 65,
+        "name": "Ecuador",
+        "alpha": "ECU",
+        "code": "218",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 66,
+        "name": "Egypt",
+        "alpha": "EGY",
+        "code": "818",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 67,
+        "name": "El Salvador",
+        "alpha": "SLV",
+        "code": "222",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 68,
+        "name": "Equatorial Guinea",
+        "alpha": "GNQ",
+        "code": "226",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 69,
+        "name": "Eritrea",
+        "alpha": "ERI",
+        "code": "232",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 70,
+        "name": "Estonia",
+        "alpha": "EST",
+        "code": "233",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 71,
+        "name": "Eswatini",
+        "alpha": "SWZ",
+        "code": "748",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 72,
+        "name": "Ethiopia",
+        "alpha": "ETH",
+        "code": "231",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 73,
+        "name": "Falkland Islands (Malvinas)",
+        "alpha": "FLK",
+        "code": "238",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 74,
+        "name": "Faroe Islands",
+        "alpha": "FRO",
+        "code": "234",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 75,
+        "name": "Fiji",
+        "alpha": "FJI",
+        "code": "242",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 76,
+        "name": "Finland",
+        "alpha": "FIN",
+        "code": "246",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 77,
+        "name": "France",
+        "alpha": "FRA",
+        "code": "250",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 78,
+        "name": "French Guiana",
+        "alpha": "GUF",
+        "code": "254",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 79,
+        "name": "French Polynesia",
+        "alpha": "PYF",
+        "code": "258",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 80,
+        "name": "French Southern Territories",
+        "alpha": "ATF",
+        "code": "260",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 81,
+        "name": "Gabon",
+        "alpha": "GAB",
+        "code": "266",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 82,
+        "name": "Gambia",
+        "alpha": "GMB",
+        "code": "270",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 83,
+        "name": "Georgia",
+        "alpha": "GEO",
+        "code": "268",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 84,
+        "name": "Germany",
+        "alpha": "DEU",
+        "code": "276",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 85,
+        "name": "Ghana",
+        "alpha": "GHA",
+        "code": "288",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 86,
+        "name": "Gibraltar",
+        "alpha": "GIB",
+        "code": "292",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 87,
+        "name": "Greece",
+        "alpha": "GRC",
+        "code": "300",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 88,
+        "name": "Greenland",
+        "alpha": "GRL",
+        "code": "304",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 89,
+        "name": "Grenada",
+        "alpha": "GRD",
+        "code": "308",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 90,
+        "name": "Guadeloupe",
+        "alpha": "GLP",
+        "code": "312",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 91,
+        "name": "Guam",
+        "alpha": "GUM",
+        "code": "316",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 92,
+        "name": "Guatemala",
+        "alpha": "GTM",
+        "code": "320",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 93,
+        "name": "Guernsey",
+        "alpha": "GGY",
+        "code": "831",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 94,
+        "name": "Guinea",
+        "alpha": "GIN",
+        "code": "324",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 95,
+        "name": "Guinea-Bissau",
+        "alpha": "GNB",
+        "code": "624",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 96,
+        "name": "Guyana",
+        "alpha": "GUY",
+        "code": "328",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 97,
+        "name": "Haiti",
+        "alpha": "HTI",
+        "code": "332",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 98,
+        "name": "Heard Island and McDonald Islands",
+        "alpha": "HMD",
+        "code": "334",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 99,
+        "name": "Holy See",
+        "alpha": "VAT",
+        "code": "336",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 100,
+        "name": "Honduras",
+        "alpha": "HND",
+        "code": "340",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 101,
+        "name": "Hong Kong",
+        "alpha": "HKG",
+        "code": "344",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 102,
+        "name": "Hungary",
+        "alpha": "HUN",
+        "code": "348",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 103,
+        "name": "Iceland",
+        "alpha": "ISL",
+        "code": "352",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 104,
+        "name": "India",
+        "alpha": "IND",
+        "code": "356",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 105,
+        "name": "Indonesia",
+        "alpha": "IDN",
+        "code": "360",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 106,
+        "name": "Iran (Islamic Republic of)",
+        "alpha": "IRN",
+        "code": "364",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 107,
+        "name": "Iraq",
+        "alpha": "IRQ",
+        "code": "368",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 108,
+        "name": "Ireland",
+        "alpha": "IRL",
+        "code": "372",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 109,
+        "name": "Isle of Man",
+        "alpha": "IMN",
+        "code": "833",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 110,
+        "name": "Israel",
+        "alpha": "ISR",
+        "code": "376",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 111,
+        "name": "Italy",
+        "alpha": "ITA",
+        "code": "380",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 112,
+        "name": "Jamaica",
+        "alpha": "JAM",
+        "code": "388",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 113,
+        "name": "Japan",
+        "alpha": "JPN",
+        "code": "392",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 114,
+        "name": "Jersey",
+        "alpha": "JEY",
+        "code": "832",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 115,
+        "name": "Jordan",
+        "alpha": "JOR",
+        "code": "400",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 116,
+        "name": "Kazakhstan",
+        "alpha": "KAZ",
+        "code": "398",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 117,
+        "name": "Kenya",
+        "alpha": "KEN",
+        "code": "404",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 118,
+        "name": "Kiribati",
+        "alpha": "KIR",
+        "code": "296",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 119,
+        "name": "Korea (Democratic Peoples Republic of)",
+        "alpha": "PRK",
+        "code": "408",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 120,
+        "name": "Korea,Republic of",
+        "alpha": "KOR",
+        "code": "410",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 121,
+        "name": "Kuwait",
+        "alpha": "KWT",
+        "code": "414",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 122,
+        "name": "Kyrgyzstan",
+        "alpha": "KGZ",
+        "code": "417",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 123,
+        "name": "Lao Peoples Democratic Republic",
+        "alpha": "LAO",
+        "code": "418",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 124,
+        "name": "Latvia",
+        "alpha": "LVA",
+        "code": "428",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 125,
+        "name": "Lebanon",
+        "alpha": "LBN",
+        "code": "422",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 126,
+        "name": "Lesotho",
+        "alpha": "LSO",
+        "code": "426",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 127,
+        "name": "Liberia",
+        "alpha": "LBR",
+        "code": "430",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 128,
+        "name": "Libya",
+        "alpha": "LBY",
+        "code": "434",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 129,
+        "name": "Liechtenstein",
+        "alpha": "LIE",
+        "code": "438",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 130,
+        "name": "Lithuania",
+        "alpha": "LTU",
+        "code": "440",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 131,
+        "name": "Luxembourg",
+        "alpha": "LUX",
+        "code": "442",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 132,
+        "name": "Macao",
+        "alpha": "MAC",
+        "code": "446",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 133,
+        "name": "Madagascar",
+        "alpha": "MDG",
+        "code": "450",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 134,
+        "name": "Malawi",
+        "alpha": "MWI",
+        "code": "454",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 135,
+        "name": "Malaysia",
+        "alpha": "MYS",
+        "code": "458",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 136,
+        "name": "Maldives",
+        "alpha": "MDV",
+        "code": "462",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 137,
+        "name": "Mali",
+        "alpha": "MLI",
+        "code": "466",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 138,
+        "name": "Malta",
+        "alpha": "MLT",
+        "code": "470",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 139,
+        "name": "Marshall Islands",
+        "alpha": "MHL",
+        "code": "584",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 140,
+        "name": "Martinique",
+        "alpha": "MTQ",
+        "code": "474",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 141,
+        "name": "Mauritania",
+        "alpha": "MRT",
+        "code": "478",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 142,
+        "name": "Mauritius",
+        "alpha": "MUS",
+        "code": "480",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 143,
+        "name": "Mayotte",
+        "alpha": "MYT",
+        "code": "175",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 144,
+        "name": "Mexico",
+        "alpha": "MEX",
+        "code": "484",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 145,
+        "name": "Micronesia (Federated States of)",
+        "alpha": "FSM",
+        "code": "583",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 146,
+        "name": "Moldova,Republic of",
+        "alpha": "MDA",
+        "code": "498",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 147,
+        "name": "Monaco",
+        "alpha": "MCO",
+        "code": "492",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 148,
+        "name": "Mongolia",
+        "alpha": "MNG",
+        "code": "496",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 149,
+        "name": "Montenegro",
+        "alpha": "MNE",
+        "code": "499",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 150,
+        "name": "Montserrat",
+        "alpha": "MSR",
+        "code": "500",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 151,
+        "name": "Morocco",
+        "alpha": "MAR",
+        "code": "504",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 152,
+        "name": "Mozambique",
+        "alpha": "MOZ",
+        "code": "508",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 153,
+        "name": "Myanmar",
+        "alpha": "MMR",
+        "code": "104",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 154,
+        "name": "Namibia",
+        "alpha": "NAM",
+        "code": "516",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 155,
+        "name": "Nauru",
+        "alpha": "NRU",
+        "code": "520",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 156,
+        "name": "Nepal",
+        "alpha": "NPL",
+        "code": "524",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 157,
+        "name": "Netherlands",
+        "alpha": "NLD",
+        "code": "528",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 158,
+        "name": "New Caledonia",
+        "alpha": "NCL",
+        "code": "540",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 159,
+        "name": "New Zealand",
+        "alpha": "NZL",
+        "code": "554",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 160,
+        "name": "Nicaragua",
+        "alpha": "NIC",
+        "code": "558",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 161,
+        "name": "Niger",
+        "alpha": "NER",
+        "code": "562",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 162,
+        "name": "Nigeria",
+        "alpha": "NGA",
+        "code": "566",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 163,
+        "name": "Niue",
+        "alpha": "NIU",
+        "code": "570",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 164,
+        "name": "Norfolk Island",
+        "alpha": "NFK",
+        "code": "574",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 165,
+        "name": "North Macedonia",
+        "alpha": "MKD",
+        "code": "807",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 166,
+        "name": "Northern Mariana Islands",
+        "alpha": "MNP",
+        "code": "580",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 167,
+        "name": "Norway",
+        "alpha": "NOR",
+        "code": "578",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 168,
+        "name": "Oman",
+        "alpha": "OMN",
+        "code": "512",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 169,
+        "name": "Pakistan",
+        "alpha": "PAK",
+        "code": "586",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 170,
+        "name": "Palau",
+        "alpha": "PLW",
+        "code": "585",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 171,
+        "name": "Palestine,State of",
+        "alpha": "PSE",
+        "code": "275",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 172,
+        "name": "Panama",
+        "alpha": "PAN",
+        "code": "591",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 173,
+        "name": "Papua New Guinea",
+        "alpha": "PNG",
+        "code": "598",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 174,
+        "name": "Paraguay",
+        "alpha": "PRY",
+        "code": "600",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 175,
+        "name": "Peru",
+        "alpha": "PER",
+        "code": "604",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 176,
+        "name": "Philippines",
+        "alpha": "PHL",
+        "code": "608",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 177,
+        "name": "Pitcairn",
+        "alpha": "PCN",
+        "code": "612",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 178,
+        "name": "Poland",
+        "alpha": "POL",
+        "code": "616",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 179,
+        "name": "Portugal",
+        "alpha": "PRT",
+        "code": "620",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 180,
+        "name": "Puerto Rico",
+        "alpha": "PRI",
+        "code": "630",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 181,
+        "name": "Qatar",
+        "alpha": "QAT",
+        "code": "634",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 182,
+        "name": "Réunion",
+        "alpha": "REU",
+        "code": "638",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 183,
+        "name": "Romania",
+        "alpha": "ROU",
+        "code": "642",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 184,
+        "name": "Russian Federation",
+        "alpha": "RUS",
+        "code": "643",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 185,
+        "name": "Rwanda",
+        "alpha": "RWA",
+        "code": "646",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 186,
+        "name": "Saint Barthélemy",
+        "alpha": "BLM",
+        "code": "652",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 187,
+        "name": "Saint Helena,Ascension and Tristan da Cunha",
+        "alpha": "SHN",
+        "code": "654",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 188,
+        "name": "Saint Kitts and Nevis",
+        "alpha": "KNA",
+        "code": "659",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 189,
+        "name": "Saint Lucia",
+        "alpha": "LCA",
+        "code": "662",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 190,
+        "name": "Saint Martin (French part)",
+        "alpha": "MAF",
+        "code": "663",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 191,
+        "name": "Saint Pierre and Miquelon",
+        "alpha": "SPM",
+        "code": "666",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 192,
+        "name": "Saint Vincent and the Grenadines",
+        "alpha": "VCT",
+        "code": "670",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 193,
+        "name": "Samoa",
+        "alpha": "WSM",
+        "code": "882",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 194,
+        "name": "San Marino",
+        "alpha": "SMR",
+        "code": "674",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 195,
+        "name": "Sao Tome and Principe",
+        "alpha": "STP",
+        "code": "678",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 196,
+        "name": "Saudi Arabia",
+        "alpha": "SAU",
+        "code": "682",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 197,
+        "name": "Senegal",
+        "alpha": "SEN",
+        "code": "686",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 198,
+        "name": "Serbia",
+        "alpha": "SRB",
+        "code": "688",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 199,
+        "name": "Seychelles",
+        "alpha": "SYC",
+        "code": "690",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 200,
+        "name": "Sierra Leone",
+        "alpha": "SLE",
+        "code": "694",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 201,
+        "name": "Singapore",
+        "alpha": "SGP",
+        "code": "702",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 202,
+        "name": "Sint Maarten (Dutch part)",
+        "alpha": "SXM",
+        "code": "534",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 203,
+        "name": "Slovakia",
+        "alpha": "SVK",
+        "code": "703",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 204,
+        "name": "Slovenia",
+        "alpha": "SVN",
+        "code": "705",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 205,
+        "name": "Solomon Islands",
+        "alpha": "SLB",
+        "code": "090",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 206,
+        "name": "Somalia",
+        "alpha": "SOM",
+        "code": "706",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 207,
+        "name": "South Africa",
+        "alpha": "ZAF",
+        "code": "710",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 208,
+        "name": "South Georgia and the South Sandwich Islands",
+        "alpha": "SGS",
+        "code": "239",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 209,
+        "name": "South Sudan",
+        "alpha": "SSD",
+        "code": "728",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 210,
+        "name": "Spain",
+        "alpha": "ESP",
+        "code": "724",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 211,
+        "name": "Sri Lanka",
+        "alpha": "LKA",
+        "code": "144",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 212,
+        "name": "Sudan",
+        "alpha": "SDN",
+        "code": "729",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 213,
+        "name": "Suriname",
+        "alpha": "SUR",
+        "code": "740",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 214,
+        "name": "Svalbard and Jan Mayen",
+        "alpha": "SJM",
+        "code": "744",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 215,
+        "name": "Sweden",
+        "alpha": "SWE",
+        "code": "752",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 216,
+        "name": "Switzerland",
+        "alpha": "CHE",
+        "code": "756",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 217,
+        "name": "Syrian Arab Republic",
+        "alpha": "SYR",
+        "code": "760",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 218,
+        "name": "Taiwan,Province of China",
+        "alpha": "TWN",
+        "code": "158",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 219,
+        "name": "Tajikistan",
+        "alpha": "TJK",
+        "code": "762",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 220,
+        "name": "Tanzania,United Republic of",
+        "alpha": "TZA",
+        "code": "834",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 221,
+        "name": "Thailand",
+        "alpha": "THA",
+        "code": "764",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 222,
+        "name": "Timor-Leste",
+        "alpha": "TLS",
+        "code": "626",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 223,
+        "name": "Togo",
+        "alpha": "TGO",
+        "code": "768",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 224,
+        "name": "Tokelau",
+        "alpha": "TKL",
+        "code": "772",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 225,
+        "name": "Tonga",
+        "alpha": "TON",
+        "code": "776",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 226,
+        "name": "Trinidad and Tobago",
+        "alpha": "TTO",
+        "code": "780",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 227,
+        "name": "Tunisia",
+        "alpha": "TUN",
+        "code": "788",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 228,
+        "name": "Turkey",
+        "alpha": "TUR",
+        "code": "792",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 229,
+        "name": "Turkmenistan",
+        "alpha": "TKM",
+        "code": "795",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 230,
+        "name": "Turks and Caicos Islands",
+        "alpha": "TCA",
+        "code": "796",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 231,
+        "name": "Tuvalu",
+        "alpha": "TUV",
+        "code": "798",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 232,
+        "name": "Uganda",
+        "alpha": "UGA",
+        "code": "800",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 233,
+        "name": "Ukraine",
+        "alpha": "UKR",
+        "code": "804",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 234,
+        "name": "United Arab Emirates",
+        "alpha": "ARE",
+        "code": "784",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 235,
+        "name": "United Kingdom of Great Britain and Northern Ireland",
+        "alpha": "GBR",
+        "code": "826",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 236,
+        "name": "United States of America",
+        "alpha": "USA",
+        "code": "840",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 237,
+        "name": "United States Minor Outlying Islands",
+        "alpha": "UMI",
+        "code": "581",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 238,
+        "name": "Uruguay",
+        "alpha": "URY",
+        "code": "858",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 239,
+        "name": "Uzbekistan",
+        "alpha": "UZB",
+        "code": "860",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 240,
+        "name": "Vanuatu",
+        "alpha": "VUT",
+        "code": "548",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 241,
+        "name": "Venezuela (Bolivarian Republic of)",
+        "alpha": "VEN",
+        "code": "862",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 242,
+        "name": "Viet Nam",
+        "alpha": "VNM",
+        "code": "704",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 243,
+        "name": "Virgin Islands (British)",
+        "alpha": "VGB",
+        "code": "092",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 244,
+        "name": "Virgin Islands (U.S.)",
+        "alpha": "VIR",
+        "code": "850",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 245,
+        "name": "Wallis and Futuna",
+        "alpha": "WLF",
+        "code": "876",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 246,
+        "name": "Western Sahara",
+        "alpha": "ESH",
+        "code": "732",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 247,
+        "name": "Yemen",
+        "alpha": "YEM",
+        "code": "887",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 248,
+        "name": "Zambia",
+        "alpha": "ZMB",
+        "code": "894",
+        "iswatersafe": false,
+        "waterinfo": ""
+    },
+    {
+        "id": 249,
+        "name": "Zimbabwe",
+        "alpha": "ZWE",
+        "code": "716",
+        "iswatersafe": false,
+        "waterinfo": ""
+    }
+]
