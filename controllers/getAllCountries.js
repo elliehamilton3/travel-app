@@ -1,12 +1,8 @@
 const db = require('../db/db.js');
 
 function getAllCountries() {
-  // try {
+  // TODO: Add error handling
   return db.any('SELECT * FROM countries');
-  // } catch (e) {
-  //   console.log(e);
-  // }
-  // Format data
 }
 
 module.exports = getAllCountries;
