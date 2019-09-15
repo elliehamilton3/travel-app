@@ -1,5 +1,5 @@
 const request = require('supertest');
-const mockAllCountries = require('./mockAllCountries.json');
+const mockAllCountries = require('./data/mockAllCountries.json');
 
 const mockGBRData = {
   id: 235,
