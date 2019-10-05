@@ -1,7 +1,7 @@
-const getAllCountriesController = require('../../controllers/getAllCountries.js');
+const Country = require('../../models/country');
 
 async function getAllCountries(req, res) {
-  return res.json(await getAllCountriesController());
+  return res.json(await Country.all());
 }
 
 module.exports = getAllCountries;
