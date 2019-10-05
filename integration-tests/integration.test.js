@@ -45,6 +45,7 @@ describe('GET /countries', () => {
   });
   const ENDPOINT = '/v1/countries';
   test('Should return a 200 response code', async () => {
+    mockAny.mockReturnValue(mockAllCountries);
     const response = await request(app).get(ENDPOINT);
     expect(response.status).toBe(200);
   });
@@ -60,15 +61,25 @@ describe('GET /countries', () => {
   test('Should return an array of country objects', async () => {
     mockAny.mockReturnValue(mockAllCountries);
     const response = await request(app).get(ENDPOINT);
-    // TODO: Update to match object exactly no extra fields
     expect(response.body[0]).toMatchObject({
-      id: 1,
       name: 'Afghanistan',
       alpha: 'AFG',
       code: '004',
-      iswatersafe: false,
-      waterinfo: '',
+      isWaterSafe: false,
+      waterInfo: '',
     });
+  });
+
+  test('Should return only the required fields for country objects', async () => {
+    mockAny.mockReturnValue(mockAllCountries);
+    const response = await request(app).get(ENDPOINT);
+
+    expect(response.body[0]).not.toHaveProperty('id');
+    expect(response.body[0]).toHaveProperty('name');
+    expect(response.body[0]).toHaveProperty('alpha');
+    expect(response.body[0]).toHaveProperty('code');
+    expect(response.body[0]).toHaveProperty('isWaterSafe');
+    expect(response.body[0]).toHaveProperty('waterInfo');
   });
 });
 
@@ -95,13 +106,24 @@ describe('GET /countries/name', () => {
     const response = await request(app).get(`${ENDPOINT}/Albania`);
     expect(response.status).toBe(200);
     expect(response.body).toMatchObject({
-      id: 3,
       name: 'Albania',
       alpha: 'ALB',
       code: '008',
-      iswatersafe: false,
-      waterinfo: '',
+      isWaterSafe: false,
+      waterInfo: '',
     });
+  });
+
+  test('Should return only the required fields for country object', async () => {
+    mockOne.mockReturnValue(mockAlbaniaData);
+    const response = await request(app).get(`${ENDPOINT}/Albania`);
+
+    expect(response.body).not.toHaveProperty('id');
+    expect(response.body).toHaveProperty('name');
+    expect(response.body).toHaveProperty('alpha');
+    expect(response.body).toHaveProperty('code');
+    expect(response.body).toHaveProperty('isWaterSafe');
+    expect(response.body).toHaveProperty('waterInfo');
   });
 
   test('Should return an object with the correct information for the name parameter provided if the name parameter contains a space', async () => {
@@ -109,12 +131,11 @@ describe('GET /countries/name', () => {
     const response = await request(app).get(`${ENDPOINT}/United Kingdom of Great Britain and Northern Ireland`);
     expect(response.status).toBe(200);
     expect(response.body).toMatchObject({
-      id: 235,
       name: 'United Kingdom of Great Britain and Northern Ireland',
       alpha: 'GBR',
       code: '826',
-      iswatersafe: false,
-      waterinfo: '',
+      isWaterSafe: false,
+      waterInfo: '',
     });
   });
 });
@@ -143,12 +164,23 @@ describe('GET /countries/code', () => {
     const response = await request(app).get(`${ENDPOINT}/GBR`);
     expect(response.status).toBe(200);
     expect(response.body).toMatchObject({
-      id: 235,
       name: 'United Kingdom of Great Britain and Northern Ireland',
       alpha: 'GBR',
       code: '826',
-      iswatersafe: false,
-      waterinfo: '',
+      isWaterSafe: false,
+      waterInfo: '',
     });
+  });
+
+  test('Should return only the required fields for country object', async () => {
+    mockOne.mockReturnValue(mockGBRData);
+    const response = await request(app).get(`${ENDPOINT}/GBR`);
+
+    expect(response.body).not.toHaveProperty('id');
+    expect(response.body).toHaveProperty('name');
+    expect(response.body).toHaveProperty('alpha');
+    expect(response.body).toHaveProperty('code');
+    expect(response.body).toHaveProperty('isWaterSafe');
+    expect(response.body).toHaveProperty('waterInfo');
   });
 });
