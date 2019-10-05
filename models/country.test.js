@@ -54,6 +54,8 @@ describe('Country', () => {
 
         expect(countries[0]).toBeInstanceOf(Country);
       });
+      xtest('Should ... if the database returns an error', () => {});
+      xtest('Should return an empty array if the database returns no data', () => {});
     });
 
     describe('.findByName', () => {
@@ -64,6 +66,12 @@ describe('Country', () => {
 
         expect(albania).toBeInstanceOf(Country);
       });
+      xtest('Should ... if the database returns an error', () => {});
+      xtest('Should return an empty object if the database returns no data', () => {});
+      xtest('Should handle capitalized data passed in', () => {});
+      xtest('Should handle lowercase data passed in', () => {});
+      xtest('Should handle uppercase data passed in', () => {});
+      xtest('Should return empty object if invalid data passed in', () => {});
     });
 
     describe('.findByCode', () => {
@@ -74,12 +82,25 @@ describe('Country', () => {
 
         expect(albania).toBeInstanceOf(Country);
       });
+      xtest('Should ... if the database returns an error', () => {});
+      xtest('Should return an empty object if the database returns no data', () => {});
+      xtest('Should handle capitalized data passed in', () => {});
+      xtest('Should handle lowercase data passed in', () => {});
+      xtest('Should handle uppercase data passed in', () => {});
+      xtest('Should return empty object if invalid data passed in', () => {});
     });
   });
 
-  xdescribe('.toJSON', () => {
+  describe('.toJSON', () => {
     test('Should return a country object in a specific JSON format', () => {
-
+      const country = new Country('name', 'alpha', 'code', 'iswatersafe', 'waterinfo');
+      expect(country.toJSON()).toEqual({
+        alpha: 'alpha',
+        code: 'code',
+        isWaterSafe: 'iswatersafe',
+        name: 'name',
+        waterInfo: 'waterinfo',
+      });
     });
   });
 });
