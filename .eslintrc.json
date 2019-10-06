@@ -17,5 +17,12 @@
     },
     "rules": {
     },
-    "plugins": ["jest"]
+    "plugins": ["jest"],
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": ["./"]
+            }
+        }
+    }
 }
