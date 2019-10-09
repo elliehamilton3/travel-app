@@ -11,6 +11,7 @@ describe('Test the root path', () => {
 
 describe('GET /countries', () => {
   const ENDPOINT = '/v1/countries';
+
   test('Should return a 200 response code', async () => {
     const response = await request(app).get(ENDPOINT);
     expect(response.status).toBe(200);
@@ -53,7 +54,7 @@ describe('GET /countries/name', () => {
     expect(response.status).toBe(404);
   });
 
-  test('Should return a 404 response code if name parameter is invalid', async () => {
+  test('Should return a 404 response code if db returns an error', async () => {
     const response = await request(app).get(`${ENDPOINT}/invalid`);
     expect(response.status).toBe(404);
   });
@@ -106,7 +107,7 @@ describe('GET /countries/code', () => {
     expect(response.status).toBe(404);
   });
 
-  test('Should return a 404 response code if code parameter is invalid', async () => {
+  test('Should return a 404 response code if db returns an error', async () => {
     const response = await request(app).get(`${ENDPOINT}/invalid`);
     expect(response.status).toBe(404);
   });

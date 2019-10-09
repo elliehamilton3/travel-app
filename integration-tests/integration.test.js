@@ -44,6 +44,13 @@ describe('GET /countries', () => {
     mockAny.mockReset();
   });
   const ENDPOINT = '/v1/countries';
+
+  test('Should return a 404 response code if db returns an error', async () => {
+    mockOne.mockRejectedValue();
+    const response = await request(app).get(`${ENDPOINT}`);
+    expect(response.status).toBe(404);
+  });
+
   test('Should return a 200 response code', async () => {
     mockAny.mockReturnValue(mockAllCountries);
     const response = await request(app).get(ENDPOINT);
@@ -90,7 +97,8 @@ describe('GET /countries/name', () => {
     expect(response.status).toBe(404);
   });
 
-  xtest('Should return a 404 response code if name parameter is invalid', async () => {
+  test('Should return a 404 response code if db returns an error', async () => {
+    mockOne.mockRejectedValue();
     const response = await request(app).get(`${ENDPOINT}/invalid`);
     expect(response.status).toBe(404);
   });
@@ -148,7 +156,8 @@ describe('GET /countries/code', () => {
     expect(response.status).toBe(404);
   });
 
-  xtest('Should return a 404 response code if code parameter is invalid', async () => {
+  test('Should return a 404 response code if db returns an error', async () => {
+    mockOne.mockRejectedValue();
     const response = await request(app).get(`${ENDPOINT}/invalid`);
     expect(response.status).toBe(404);
   });
