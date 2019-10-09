@@ -1,7 +1,12 @@
 const Country = require('models/country');
 
 async function getInfoByName(req, res) {
-  return res.json(await Country.findByName(req.params.name));
+  try {
+    const country = await Country.findByName(req.params.name);
+    return res.json(country);
+  } catch (e) {
+    return res.sendStatus(404);
+  }
 }
 
 module.exports = getInfoByName;

@@ -70,7 +70,14 @@ describe('Country', () => {
 
         expect(albania).toBeInstanceOf(Country);
       });
-      xtest('Should ... if the database returns an error', async () => {});
+      test('Should throw an error if the database returns an error', async () => {
+        mockOne.mockRejectedValue(Error);
+        try {
+          await Country.findByName('ALB');
+        } catch (e) {
+          expect(e).toEqual(Error);
+        }
+      });
       test('Should return an empty object if the database returns no data', async () => {
         mockOne.mockResolvedValue({});
         const noData = await Country.findByName('Albania');
@@ -91,11 +98,6 @@ describe('Country', () => {
         await Country.findByName('ALBANIA');
         expect(mockOne.mock.calls[0][1][0]).toEqual('albania');
       });
-      xtest('Should return empty object if invalid data passed in', async () => {
-        mockOne.mockResolvedValue(mockAlbaniaData);
-        const invalidData = await Country.findByName('not a country');
-        expect(invalidData).toEqual({});
-      });
     });
 
     describe('.findByCode', () => {
@@ -106,7 +108,14 @@ describe('Country', () => {
 
         expect(albania).toBeInstanceOf(Country);
       });
-      xtest('Should ... if the database returns an error', async () => {});
+      test('Should throw an error if the database returns an error', async () => {
+        mockOne.mockRejectedValue(Error);
+        try {
+          await Country.findByCode('ALB');
+        } catch (e) {
+          expect(e).toEqual(Error);
+        }
+      });
       test('Should return an empty object if the database returns no data', async () => {
         mockOne.mockResolvedValue({});
         const noData = await Country.findByCode('ALB');
@@ -127,7 +136,6 @@ describe('Country', () => {
         await Country.findByCode('ALB');
         expect(mockOne.mock.calls[0][1][0]).toEqual('ALB');
       });
-      xtest('Should return empty object if invalid data passed in', async () => {});
     });
   });
 
