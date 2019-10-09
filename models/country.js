@@ -22,7 +22,7 @@ class Country {
   }
 
   static findByName(name) {
-    const country = db.one('SELECT * FROM countries WHERE name = $1', [name]);
+    const country = db.one('SELECT * FROM countries WHERE name = $1', [name.toLowerCase()]);
     return new Country(
       country.name,
       country.alpha,
@@ -33,7 +33,7 @@ class Country {
   }
 
   static findByCode(code) {
-    const country = db.one('SELECT * FROM countries WHERE alpha = $1', [code]);
+    const country = db.one('SELECT * FROM countries WHERE alpha = $1', [code.toUpperCase()]);
     return new Country(
       country.name,
       country.alpha,
@@ -44,10 +44,13 @@ class Country {
   }
 
   toJSON() {
+    const capitalisedName = this.name.split(' ')
+      .map(s => s.charAt(0).toUpperCase() + s.substring(1)).join(' ');
+
     return {
-      name: this.name,
+      name: capitalisedName,
       alpha: this.alpha,
-      code: this.code,
+      code: this.code.toUpperCase(),
       isWaterSafe: this.iswatersafe,
       waterInfo: this.waterinfo,
     };

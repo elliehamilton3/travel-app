@@ -3,7 +3,7 @@ const mockAllCountries = require('integration-tests/data/mockAllCountries.json')
 
 const mockGBRData = {
   id: 235,
-  name: 'United Kingdom of Great Britain and Northern Ireland',
+  name: 'United Kingdom',
   alpha: 'GBR',
   code: '826',
   iswatersafe: false,
@@ -128,10 +128,10 @@ describe('GET /countries/name', () => {
 
   test('Should return an object with the correct information for the name parameter provided if the name parameter contains a space', async () => {
     mockOne.mockReturnValue(mockGBRData);
-    const response = await request(app).get(`${ENDPOINT}/United Kingdom of Great Britain and Northern Ireland`);
+    const response = await request(app).get(`${ENDPOINT}/United Kingdom`);
     expect(response.status).toBe(200);
     expect(response.body).toMatchObject({
-      name: 'United Kingdom of Great Britain and Northern Ireland',
+      name: 'United Kingdom',
       alpha: 'GBR',
       code: '826',
       isWaterSafe: false,
@@ -164,7 +164,7 @@ describe('GET /countries/code', () => {
     const response = await request(app).get(`${ENDPOINT}/GBR`);
     expect(response.status).toBe(200);
     expect(response.body).toMatchObject({
-      name: 'United Kingdom of Great Britain and Northern Ireland',
+      name: 'United Kingdom',
       alpha: 'GBR',
       code: '826',
       isWaterSafe: false,

@@ -2,7 +2,7 @@ const mockAlbania = {
   alpha: 'ALB',
   code: '008',
   iswatersafe: false,
-  name: 'Albania',
+  name: 'albania',
   waterinfo: '',
 };
 const mockAlbaniaData = {
@@ -11,7 +11,7 @@ const mockAlbaniaData = {
 };
 
 const mockGBR = {
-  name: 'United Kingdom of Great Britain and Northern Ireland',
+  name: 'united kingdom',
   alpha: 'GBR',
   code: '826',
   iswatersafe: false,
@@ -55,7 +55,11 @@ describe('Country', () => {
         expect(countries[0]).toBeInstanceOf(Country);
       });
       xtest('Should ... if the database returns an error', () => {});
-      xtest('Should return an empty array if the database returns no data', () => {});
+      test('Should return an empty array if the database returns no data', () => {
+        mockAny.mockReturnValue([]);
+        const noData = Country.all();
+        expect(noData).toEqual([]);
+      });
     });
 
     describe('.findByName', () => {
@@ -67,11 +71,31 @@ describe('Country', () => {
         expect(albania).toBeInstanceOf(Country);
       });
       xtest('Should ... if the database returns an error', () => {});
-      xtest('Should return an empty object if the database returns no data', () => {});
-      xtest('Should handle capitalized data passed in', () => {});
-      xtest('Should handle lowercase data passed in', () => {});
-      xtest('Should handle uppercase data passed in', () => {});
-      xtest('Should return empty object if invalid data passed in', () => {});
+      test('Should return an empty object if the database returns no data', () => {
+        mockOne.mockReturnValue({});
+        const noData = Country.findByName('Albania');
+        expect(noData).toEqual({});
+      });
+      test('Should handle capitalized data passed in', () => {
+        mockOne.mockReturnValue(mockAlbaniaData);
+        Country.findByName('Albania');
+        expect(mockOne.mock.calls[0][1][0]).toEqual('albania');
+      });
+      test('Should handle lowercase data passed in', () => {
+        mockOne.mockReturnValue(mockAlbaniaData);
+        Country.findByName('albania');
+        expect(mockOne.mock.calls[0][1][0]).toEqual('albania');
+      });
+      test('Should handle uppercase data passed in', () => {
+        mockOne.mockReturnValue(mockAlbaniaData);
+        Country.findByName('ALBANIA');
+        expect(mockOne.mock.calls[0][1][0]).toEqual('albania');
+      });
+      xtest('Should return empty object if invalid data passed in', () => {
+        mockOne.mockReturnValue(mockAlbaniaData);
+        const invalidData = Country.findByName('not a country');
+        expect(invalidData).toEqual({});
+      });
     });
 
     describe('.findByCode', () => {
@@ -83,22 +107,60 @@ describe('Country', () => {
         expect(albania).toBeInstanceOf(Country);
       });
       xtest('Should ... if the database returns an error', () => {});
-      xtest('Should return an empty object if the database returns no data', () => {});
-      xtest('Should handle capitalized data passed in', () => {});
-      xtest('Should handle lowercase data passed in', () => {});
-      xtest('Should handle uppercase data passed in', () => {});
+      test('Should return an empty object if the database returns no data', () => {
+        mockOne.mockReturnValue({});
+        const noData = Country.findByCode('ALB');
+        expect(noData).toEqual({});
+      });
+      test('Should handle capitalized data passed in', () => {
+        mockOne.mockReturnValue(mockAlbaniaData);
+        Country.findByCode('Alb');
+        expect(mockOne.mock.calls[0][1][0]).toEqual('ALB');
+      });
+      test('Should handle lowercase data passed in', () => {
+        mockOne.mockReturnValue(mockAlbaniaData);
+        Country.findByCode('alb');
+        expect(mockOne.mock.calls[0][1][0]).toEqual('ALB');
+      });
+      test('Should handle uppercase data passed in', () => {
+        mockOne.mockReturnValue(mockAlbaniaData);
+        Country.findByCode('ALB');
+        expect(mockOne.mock.calls[0][1][0]).toEqual('ALB');
+      });
       xtest('Should return empty object if invalid data passed in', () => {});
     });
   });
 
   describe('.toJSON', () => {
     test('Should return a country object in a specific JSON format', () => {
+      const country = new Country('name', 'alpha', 'CODE', 'iswatersafe', 'waterinfo');
+      expect(country.toJSON()).toEqual({
+        alpha: 'alpha',
+        code: 'CODE',
+        isWaterSafe: 'iswatersafe',
+        name: 'Name',
+        waterInfo: 'waterinfo',
+      });
+    });
+
+    test('Should return a country object with code in uppercase', () => {
       const country = new Country('name', 'alpha', 'code', 'iswatersafe', 'waterinfo');
       expect(country.toJSON()).toEqual({
         alpha: 'alpha',
-        code: 'code',
+        code: 'CODE',
         isWaterSafe: 'iswatersafe',
-        name: 'name',
+        name: 'Name',
+        waterInfo: 'waterinfo',
+      });
+    });
+
+    test('Should return a country object with name capitalised', () => {
+      const country = new Country('name country', 'alpha', 'code', 'iswatersafe', 'waterinfo');
+      expect(country.toJSON()).toEqual({
+        alpha: 'alpha',
+        code: 'CODE',
+        isWaterSafe: 'iswatersafe',
+        name: 'Name Country',
         waterInfo: 'waterinfo',
       });
     });
