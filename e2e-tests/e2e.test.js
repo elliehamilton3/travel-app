@@ -99,7 +99,6 @@ describe('GET /countries/name', () => {
   });
 });
 
-
 describe('GET /countries/code', () => {
   const ENDPOINT = '/v1/countries/code';
   test('Should return a 404 response code if code parameter is missing', async () => {

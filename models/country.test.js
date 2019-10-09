@@ -47,87 +47,87 @@ describe('Country', () => {
 
   describe('static functions', () => {
     describe('.all', () => {
-      test('Should return an array of country objects', () => {
-        mockAny.mockReturnValue(mockAllCountries);
-        const countries = Country.all();
+      test('Should return an array of country objects', async () => {
+        mockAny.mockResolvedValue(mockAllCountries);
+        const countries = await Country.all();
         expect(countries).toEqual([mockAlbania, mockGBR]);
 
         expect(countries[0]).toBeInstanceOf(Country);
       });
       xtest('Should ... if the database returns an error', () => {});
-      test('Should return an empty array if the database returns no data', () => {
-        mockAny.mockReturnValue([]);
-        const noData = Country.all();
+      test('Should return an empty array if the database returns no data', async () => {
+        mockAny.mockResolvedValue([]);
+        const noData = await Country.all();
         expect(noData).toEqual([]);
       });
     });
 
     describe('.findByName', () => {
-      test('Should return a country object by name', () => {
-        mockOne.mockReturnValue(mockAlbaniaData);
-        const albania = Country.findByName('Albania');
+      test('Should return a country object by name', async () => {
+        mockOne.mockResolvedValue(mockAlbaniaData);
+        const albania = await Country.findByName('Albania');
         expect(albania).toEqual(mockAlbania);
 
         expect(albania).toBeInstanceOf(Country);
       });
-      xtest('Should ... if the database returns an error', () => {});
-      test('Should return an empty object if the database returns no data', () => {
-        mockOne.mockReturnValue({});
-        const noData = Country.findByName('Albania');
+      xtest('Should ... if the database returns an error', async () => {});
+      test('Should return an empty object if the database returns no data', async () => {
+        mockOne.mockResolvedValue({});
+        const noData = await Country.findByName('Albania');
         expect(noData).toEqual({});
       });
-      test('Should handle capitalized data passed in', () => {
-        mockOne.mockReturnValue(mockAlbaniaData);
-        Country.findByName('Albania');
+      test('Should handle capitalized data passed in', async () => {
+        mockOne.mockResolvedValue(mockAlbaniaData);
+        await Country.findByName('Albania');
         expect(mockOne.mock.calls[0][1][0]).toEqual('albania');
       });
-      test('Should handle lowercase data passed in', () => {
-        mockOne.mockReturnValue(mockAlbaniaData);
-        Country.findByName('albania');
+      test('Should handle lowercase data passed in', async () => {
+        mockOne.mockResolvedValue(mockAlbaniaData);
+        await Country.findByName('albania');
         expect(mockOne.mock.calls[0][1][0]).toEqual('albania');
       });
-      test('Should handle uppercase data passed in', () => {
-        mockOne.mockReturnValue(mockAlbaniaData);
-        Country.findByName('ALBANIA');
+      test('Should handle uppercase data passed in', async () => {
+        mockOne.mockResolvedValue(mockAlbaniaData);
+        await Country.findByName('ALBANIA');
         expect(mockOne.mock.calls[0][1][0]).toEqual('albania');
       });
-      xtest('Should return empty object if invalid data passed in', () => {
-        mockOne.mockReturnValue(mockAlbaniaData);
-        const invalidData = Country.findByName('not a country');
+      xtest('Should return empty object if invalid data passed in', async () => {
+        mockOne.mockResolvedValue(mockAlbaniaData);
+        const invalidData = await Country.findByName('not a country');
         expect(invalidData).toEqual({});
       });
     });
 
     describe('.findByCode', () => {
-      test('Should return a country object by code', () => {
-        mockOne.mockReturnValue(mockAlbaniaData);
-        const albania = Country.findByCode('ALB');
+      test('Should return a country object by code', async () => {
+        mockOne.mockResolvedValue(mockAlbaniaData);
+        const albania = await Country.findByCode('ALB');
         expect(albania).toEqual(mockAlbania);
 
         expect(albania).toBeInstanceOf(Country);
       });
-      xtest('Should ... if the database returns an error', () => {});
-      test('Should return an empty object if the database returns no data', () => {
-        mockOne.mockReturnValue({});
-        const noData = Country.findByCode('ALB');
+      xtest('Should ... if the database returns an error', async () => {});
+      test('Should return an empty object if the database returns no data', async () => {
+        mockOne.mockResolvedValue({});
+        const noData = await Country.findByCode('ALB');
         expect(noData).toEqual({});
       });
-      test('Should handle capitalized data passed in', () => {
-        mockOne.mockReturnValue(mockAlbaniaData);
-        Country.findByCode('Alb');
+      test('Should handle capitalized data passed in', async () => {
+        mockOne.mockResolvedValue(mockAlbaniaData);
+        await Country.findByCode('Alb');
         expect(mockOne.mock.calls[0][1][0]).toEqual('ALB');
       });
-      test('Should handle lowercase data passed in', () => {
-        mockOne.mockReturnValue(mockAlbaniaData);
-        Country.findByCode('alb');
+      test('Should handle lowercase data passed in', async () => {
+        mockOne.mockResolvedValue(mockAlbaniaData);
+        await Country.findByCode('alb');
         expect(mockOne.mock.calls[0][1][0]).toEqual('ALB');
       });
-      test('Should handle uppercase data passed in', () => {
-        mockOne.mockReturnValue(mockAlbaniaData);
-        Country.findByCode('ALB');
+      test('Should handle uppercase data passed in', async () => {
+        mockOne.mockResolvedValue(mockAlbaniaData);
+        await Country.findByCode('ALB');
         expect(mockOne.mock.calls[0][1][0]).toEqual('ALB');
       });
-      xtest('Should return empty object if invalid data passed in', () => {});
+      xtest('Should return empty object if invalid data passed in', async () => {});
     });
   });
 
