@@ -9,8 +9,8 @@ class Country {
     this.waterinfo = waterinfo;
   }
 
-  static all() {
-    const countries = db.any('SELECT * FROM countries');
+  static async all() {
+    const countries = await db.any('SELECT * FROM countries');
     return countries.map(country => (
       new Country(
         country.name,
@@ -21,8 +21,8 @@ class Country {
       )));
   }
 
-  static findByName(name) {
-    const country = db.one('SELECT * FROM countries WHERE name = $1', [name.toLowerCase()]);
+  static async findByName(name) {
+    const country = await db.one('SELECT * FROM countries WHERE name = $1', [name.toLowerCase()]);
     return new Country(
       country.name,
       country.alpha,
@@ -32,8 +32,8 @@ class Country {
     );
   }
 
-  static findByCode(code) {
-    const country = db.one('SELECT * FROM countries WHERE alpha = $1', [code.toUpperCase()]);
+  static async findByCode(code) {
+    const country = await db.one('SELECT * FROM countries WHERE alpha = $1', [code.toUpperCase()]);
     return new Country(
       country.name,
       country.alpha,
