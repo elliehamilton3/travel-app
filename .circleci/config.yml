@@ -1,4 +1,7 @@
-version: 2
+version: 2.1
+orbs:
+  aws-ecr: circleci/aws-ecr@6.4.0
+  aws-ecs: circleci/aws-ecs@0.0.18
 jobs:
   build:
     docker:
@@ -31,3 +34,15 @@ workflows:
   build-test-and-deploy:
     jobs:
       - build
+      - aws-ecr/build_and_push_image:
+          account-url: "${AWS_ACCOUNT_ID}.dkr.ecr.eu-west-1.amazonaws.com"
+          repo: "travel-app"
+          region: eu-west-1
+          tag: "${CIRCLE_SHA1}"
+      - aws-ecs/deploy-service-update:
+          requires:
+            - aws-ecr/build_and_push_image
+          aws-region: eu-west-1
+          family: "travel-app-service"
+          cluster-name: "travel-app-cluster"
+          container-image-name-updates: "container=travel-app-service,tag=${CIRCLE_SHA1}"
