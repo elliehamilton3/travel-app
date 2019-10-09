@@ -1,7 +1,7 @@
 version: 2.1
 orbs:
-  aws-ecr: circleci/aws-ecr@6.4.0
-  aws-ecs: circleci/aws-ecs@0.0.18
+  aws-ecr: circleci/aws-ecr@0.0.2
+  aws-ecs: circleci/aws-ecs@0.0.10
 jobs:
   build:
     docker:
@@ -33,7 +33,7 @@ workflows:
   build-test-and-deploy:
     jobs:
       - build
-      - aws-ecr/build-and-push-image:
+      - aws-ecr/build_and_push_image:
           account-url: "${AWS_ACCOUNT_ID}.dkr.ecr.eu-west-1.amazonaws.com"
           repo: "travel-app"
           region: eu-west-1
