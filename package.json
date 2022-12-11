@@ -28,7 +28,7 @@
   },
   "homepage": "https://github.com/elliehamilton3/travel-app#readme",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "pg-promise": "^9.1.4"
   },
   "devDependencies": {
